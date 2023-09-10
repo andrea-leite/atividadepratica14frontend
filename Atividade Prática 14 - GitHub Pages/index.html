@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+    <title>Desenhos da Vivian</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="bg-black text-light">
+    <header class="container-fluid p-2 bg-black text-center text-light">
+        <nav class="navbar navbar-expand-lg bg-black">
+            <div class="container-fluid">
+                <a class="navbar-brand text-light" href="#">Vivian's art</a>
+                <button class="navbar-toggler text-light" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+            </div>
+            <div class="collapse navbar-collapse justify-content-around fw-semibold fs-5" id="navbarSupportedContent">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link text-light" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-light" href="#">Desenhos</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-light" href="#">Contato</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+        <h1 class="fs-1">Desenhos feitos pela Vivian</h1>
+        <p class="fs-5 bg-danger-subtle text-black">Toda criança precisa se expressar e a forma que a Vivian gosta é desenhando.</p>
+    </header>
+    <section class="container bg-black p-4">
+        <h2 class="text-center pb-2">O amor pelos Pets</h2>
+        <div class="row">
+            <figure class="col text-center">
+                <img src="img/rabito.jpg" alt="" />
+                <figcaption class="text-bg-primary">Desenho do cachorrinho Rabito</figcaption>               
+            </figure>
+            <figure class="col text-center">
+                <img src="img/coisasRabito.jpg" alt="" />
+                <figcaption class="text-bg-warning">Objetos do Rabito</figcaption>
+            </figure>
+        </div>
+    </section>
+    <section class="container-fluid">
+        <h2 class="text-center p-4 border-2 border-top">Natureza</h2>
+        <div class="row">
+            <figure class="col text-center">
+                <img src="img/flores.jpg" alt="" />
+                <figcaption class="text-bg-info">Flores vermelhas</figcaption>
+            </figure>
+            <figure class="col text-center">
+                <img src="./img/borboleta.jpg" alt="" />
+                <figcaption class="text-bg-success">Borboleta</figcaption>
+            </figure>
+        </div>
+    </section>
+    <section class="container">
+        <form method="GET" action="">
+            <fieldset>
+                <legend class="text-center bg-danger">Contato com a Artista!</legend>
+                <div class="mb-2">
+                    <label class="form-label" for="nome"> Nome: </label>
+                    <input type="text" class="form-control bg-danger-subtle" name="nome" id="nome" />
+                </div>
+                <div class="mb-2">
+                    <label class="form-label" for="email"> Email </label>
+                    <input type="email" class="form-control bg-danger-subtle" name="email" placeholder="email@teste.com.br" id="email" />
+                </div>
+                <div class="mb-2">
+                    <textarea class="bg-danger-subtle" name="text" id="" cols="110" rows="3" placeholder="Deixe sua mensagem:"></textarea>
+                </div>
+    </section>
+    <footer class="container-fluid bg-black">
+        <p class="text-center">Desenvolvido por Andréa Leite - &copy;2023</p>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
