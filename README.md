@@ -3,15 +3,15 @@
 Atividade Prática
 Atividade Prática 14 - GitHub Pages
 
-Título da Prática: Criação e Publicação de um Site Estático no GitHub Pages
-Objetivos: O objetivo desta atividade é praticar a criação de um site básico estático e hospedá-lo usando o GitHub Pages, aplicando os conhecimentos de HTML, CSS, Bootstrap e uso do GitHub.
-Materiais, Métodos e Ferramentas:1. Computador com acesso a internet
-2. Navegador de internet
-3. Conta no GitHub
-4. Editor de código como o Visual Studio Code (VSCode)
-5. Conhecimentos básicos de HTML, CSS e Bootstrap
+Título da Prática: Criação e Publicação de um Site Estático no GitHub Pages<br>
+Objetivos: O objetivo desta atividade é praticar a criação de um site básico estático e hospedá-lo usando o GitHub Pages, aplicando os conhecimentos de HTML, CSS, Bootstrap e uso do GitHub.<br><br>
+Materiais, Métodos e Ferramentas:1. Computador com acesso a internet<br>
+2. Navegador de internet<br>
+3. Conta no GitHub<br>
+4. Editor de código como o Visual Studio Code (VSCode)<br>
+5. Conhecimentos básicos de HTML, CSS e Bootstrap<br><br><br>
 
-Atividade Prática
+Atividade Prática<br><br>
 
 1. Comece criando um site básico no seu editor de código. O site deve ter pelo menos uma página (index.html) e utilizar HTML, CSS e Bootstrap. Você é livre para definir o conteúdo e estilo do site.
 
